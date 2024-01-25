@@ -46,6 +46,20 @@
                 <td>Adbul Kalam</td>
             </tr>
         </table>
+        <hr>
+        <h3>Code to display</h3>
+        <p>Uses the writeFile method to replace a string in a file. The below code is collected based on my S number. My last second number is 3 so it is collected from nodejs and last number is 4 so 4+11 it is 15. so we need to take 15th code but 15th is only one line so took 16th code.        </p>
+        <pre>
+            const fileSystem = require('fs');
+            const editFile = (fileName, text) => {
+	        fileSystem.writeFile(fileName, text, (error) => {
+		if (error) throw error;
+		console.log('Replaced the file!');
+	});
+}
+        </pre>
+
+        <a href="https://code.pieces.app/collections/node-js">Click here for snippet code</a>
 
     </body>
 </html>
